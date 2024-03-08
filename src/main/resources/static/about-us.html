@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en"> 
+<html class="wide wow-animation" lang="en"  xmlns:th="http://thymleaf.org">
   <head>
     <!-- Site Title-->
     <title>About Us</title>
@@ -7,19 +7,18 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="../../../../../site/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-    <link rel="stylesheet" href="../../../../../site/css/bootstrap.css">
-    <link rel="stylesheet" href="../../../../../site/css/style.css">
-    <link rel="stylesheet" href="../../../../../site/css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap.css" th:href="@{/css/bootstrap.css}">
+    <link rel="stylesheet" href="css/style.css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="css/fonts.css" th:href="@{/css/fonts.css}">
 		<!--[if lt IE 10]>
       <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;">
           <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
-                  src="../../../../../site/images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                  src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
                   alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
       </div>
-      <script src="js/html5shiv.min.js"></script>
       <![endif]-->
   </head>
   <body>
@@ -86,7 +85,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="../../../../../site/images/logo-default-208x46.png" alt="" width="208" height="46"/><img class="logo-inverse" src="../../../../../site/images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-208x46.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
               </div>
               <div class="rd-navbar-aside-right">
                 <div class="rd-navbar-nav-wrap">
@@ -97,8 +96,6 @@
                     <li class="active"><a href="about-us.html">About Us</a>
                     </li>
                     <li><a href="contacts.html">Contacts</a>
-                    </li>
-                    <li><a href="../../../../../site/typography.html">Typography</a>
                     </li>
                   </ul>
                 </div>
@@ -130,7 +127,7 @@
               <p class="text-spacing-sm">
                 Immerse yourself in a world of possibilities as you browse through our curated selection of destinations and experiences. Whether you crave the tranquility of pristine beaches, the charm of historic cities, or the awe-inspiring beauty of natural landscapes, we have the perfect itinerary waiting for you. With our commitment to quality and customer satisfaction, you can travel with confidence knowing that every detail is meticulously taken care of. Let us inspire you, guide you, and elevate your travel experience to new heights. Your next great adventure awaits.</p><a class="button button-default-outline button-nina" href="#">learn more</a>
             </div>
-            <div class="col-md-10 col-lg-6"><img src="../../../../../site/images/AboutUs2.jpg" alt="" width="720" height="459"/>
+            <div class="col-md-10 col-lg-6"><img src="images/AboutUs2.jpg" alt="" width="720" height="459"/>
             </div>
           </div>
         </div>
@@ -188,7 +185,7 @@
           <div class="row row-50 row-xxl-90 justify-content-sm-center offset-custom-2">
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-1.jpg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-1.jpg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Sandra Ferguson</a></h5>
@@ -205,7 +202,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-2.jpg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-2.jpg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Ronald Chen</a></h5>
@@ -222,7 +219,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-3.jpg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-3.jpg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Frances Watson</a></h5>
@@ -239,7 +236,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-4.jpg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-4.jpg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Joe Myers</a></h5>
@@ -256,7 +253,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-5.jpeg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-5.jpeg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Brenda Lopez</a></h5>
@@ -273,7 +270,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-6.jpg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-6.jpg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Deborah Stewart</a></h5>
@@ -290,7 +287,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-7.jpeg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-7.jpeg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Patrick Douglas</a></h5>
@@ -307,7 +304,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
-                <figure><img class="rounded-circle" src="../../../../../site/images/team-8.jpeg" alt="" width="300" height="300"/>
+                <figure><img class="rounded-circle" src="images/team-8.jpeg" alt="" width="300" height="300"/>
                 </figure>
                 <div class="team-classic-caption">
                   <h5><a class="team-classic-title" href="#">Ruth Marshall</a></h5>
@@ -399,7 +396,7 @@
           <div class="row row-50" data-lightgallery="group">
             <div class="col-sm-12 col-md-6 col-lg-4"><a class="gallery-item titled-gallery-item" href="../../../../../site/images/bora-bora.jpg" data-lightgallery="item">
                 <div class="gallery-item-image">
-                  <figure><img src="../../../../../site/images/bora-bora.jpg" alt="" width="570" height="380"/>
+                  <figure><img src="images/bora-bora.jpg" alt="" width="570" height="380"/>
                   </figure>
                   <div class="caption">
                   </div>
@@ -408,7 +405,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4"><a class="gallery-item titled-gallery-item" href="../../../../../site/images/Egypt.jpg" data-lightgallery="item">
                 <div class="gallery-item-image">
-                  <figure><img src="../../../../../site/images/Egypt.jpg" alt="" width="570" height="380"/>
+                  <figure><img src="images/Egypt.jpg" alt="" width="570" height="380"/>
                   </figure>
                   <div class="caption">
                   </div>
@@ -417,7 +414,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4"><a class="gallery-item titled-gallery-item" href="../../../../../site/images/Thailand.jpg" data-lightgallery="item">
                 <div class="gallery-item-image">
-                  <figure><img src="../../../../../site/images/Thailand.jpg" alt="" width="570" height="380"/>
+                  <figure><img src="images/Thailand.jpg" alt="" width="570" height="380"/>
                   </figure>
                   <div class="caption">
                   </div>
@@ -426,7 +423,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4"><a class="gallery-item titled-gallery-item" href="../../../../../site/images/Dominicana.jpg" data-lightgallery="item">
                 <div class="gallery-item-image">
-                  <figure><img src="../../../../../site/images/Dominicana.jpg" alt="" width="570" height="380"/>
+                  <figure><img src="images/Dominicana.jpg" alt="" width="570" height="380"/>
                   </figure>
                   <div class="caption">
                   </div>
@@ -435,7 +432,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4"><a class="gallery-item titled-gallery-item" href="../../../../../site/images/Jamaica.png" data-lightgallery="item">
                 <div class="gallery-item-image">
-                  <figure><img src="../../../../../site/images/Jamaica.png" alt="" width="570" height="380"/>
+                  <figure><img src="images/Jamaica.png" alt="" width="570" height="380"/>
                   </figure>
                   <div class="caption">
                   </div>
@@ -444,7 +441,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4"><a class="gallery-item titled-gallery-item" href="../../../../../site/images/Huntington-Beach.jpg" data-lightgallery="item">
                 <div class="gallery-item-image">
-                  <figure><img src="../../../../../site/images/Huntington-Beach.jpg" alt="" width="570" height="380"/>
+                  <figure><img src="images/Huntington-Beach.jpg" alt="" width="570" height="380"/>
                   </figure>
                   <div class="caption">
                   </div>
@@ -468,7 +465,7 @@
       <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
-            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="../../../../../site/images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
+            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
             <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
               <ul class="group-xs group-middle"> 
                 <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="#"></a></li>
@@ -485,7 +482,7 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"> </div>
     <!-- Javascript-->
-    <script src="../../../../../site/js/core.min.js"></script>
-    <script src="../../../../../site/js/script.js"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
